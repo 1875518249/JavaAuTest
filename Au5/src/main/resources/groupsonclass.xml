@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name = "suitename">
+    <test name="runall">
+        <classes>
+            <class name = "com.autest.testng.groups.GroupsOnClass1"/>
+            <class name = "com.autest.testng.groups.GroupsOnClass2"/>
+            <class name = "com.autest.testng.groups.GroupsOnClass3"/>
+        </classes>
+
+    </test>
+    <test name="onlyrunstu">
+        <groups>
+            <run>
+                <include name = "stu"/>
+            </run>
+        </groups>
+        <classes>
+            <class name = "com.autest.testng.groups.GroupsOnClass1"/>
+            <class name = "com.autest.testng.groups.GroupsOnClass2"/>
+            <class name = "com.autest.testng.groups.GroupsOnClass3"/>
+        </classes>
+    </test>
+
+</suite>

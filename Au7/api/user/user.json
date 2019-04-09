@@ -1,0 +1,35 @@
+[
+  {
+  "request":{
+    "uri":"/getUserList",
+    "method":"get"
+
+  },
+    "response":{
+
+      "json":{
+        "status":200,
+        "data":{
+          "name":"Zhangzhang",
+          "sex":"男",
+          "other":"牛逼"
+        }
+      },
+      "headers":{
+        "Content-Type":"text/html;charset=GBK"
+      }
+    }
+},
+  {
+    "request": {
+      "uri": "/getUserCount",
+      "method": "get"
+    },
+    "response": {
+      "text": "获取用户数成功",
+      "headers":{
+        "Content-Type":"text/html;charset=GBK"
+      }
+    }
+  }
+]

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name=" test">
+    <test name="login">
+        <classes>
+            <!--SuiteConfig里面所有的test标签是作用在当前这个test标签里面生效-->
+            <!--SuiteConfig里面所有的suite标签是作用在当前这个suite标签里面生效-->
+            <class name="com.autest.testng.suite.SuiteConfig"/>
+            <class name="com.autest.testng.suite.LoginTest"/>
+        </classes>
+    </test>
+
+    <test name="pay">
+        <classes>
+            <!--<class name="com.autest.testng.suite.SuiteConfig"/>-->
+            <class name="com.autest.testng.suite.PayTest"/>
+        </classes>
+    </test>
+</suite>

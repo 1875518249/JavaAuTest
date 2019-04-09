@@ -1,0 +1,7 @@
+#moco启动说明
+Moco Options:
+moco [server type] -p port -c [configuration file]
+server type: http, https, socket
+
+
+java -jar ./moco-runner-0.11.0-standalone.jar http -p 8889 -c startup1.json(json配置文件要看路径，-p端口号)

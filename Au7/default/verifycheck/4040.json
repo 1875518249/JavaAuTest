@@ -1,0 +1,11 @@
+[
+  {
+    "response":{
+      "code":4040,
+      "msg":"请求方式不正确，检查好后再试一试",
+      "headers":{
+        "Content-Type":"text/html;charset=GBK"
+      }
+    }
+  }
+]
