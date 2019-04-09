@@ -1,7 +1,7 @@
 [
   {
     "response":{
-      "text":"请求出现错误",
+      "text":"请求出现其他错误",
       "headers":{
       "Content-Type":"text/html;charset=GBK"
     },

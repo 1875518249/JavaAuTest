@@ -1,0 +1,14 @@
+[
+  {
+    "request":{
+      "uri":"/getYou",
+      "method":"get"
+    },
+    "response":{
+      "text":"测试settings设置接口请求成功",
+      "headers":{
+        "Content-Type":"text/html;charset=GBK"
+      }
+    }
+  }
+]

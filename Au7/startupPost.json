@@ -1,0 +1,28 @@
+[
+  {
+    "description":"模拟一个post请求",
+    "request":{
+      "uri":"/postdemo",
+      "method":"post"
+    },
+    "response":{
+    "text":"This is first Moco Post of request!"
+  }
+  },
+  {
+    "description":"模拟一个带参数的post请求",
+    "request":{
+      "uri":"/postparam",
+      "method":"post",
+      "forms":{
+        "name":"yuefei",
+        "age":"18"
+
+      }
+
+    },
+    "response":{
+      "text":"this is a param post request!"
+    }
+  }
+]

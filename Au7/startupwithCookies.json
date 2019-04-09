@@ -1,0 +1,40 @@
+[
+  {
+    "description":"这是个带cookie的get请求",
+    "request":{
+      "uri":"/get/with/cookies",
+      "method":"get",
+      "cookies":{
+        "login":"true"
+      }
+    },
+    "response":{
+      "text":"这是一个需要带cookies访问的Api！"
+    }
+  },
+  {
+    "description":"这是个带cookies的postqingqiu",
+    "request":{
+      "uri":"/post/with/cookies",
+      "method":"post",
+      "cookies":{
+        "login":"true"
+      },
+      "json":{
+        "name":"Yuefei",
+        "age":"18"
+      }
+    },
+    "response":{
+      "status":"200",
+      "json":[{
+        "code":1,
+        "Yuefei":"Success"
+
+      },{
+        "code":1,
+        "Liusan":"Fail"
+      }]
+    }
+  }
+]

@@ -1,0 +1,52 @@
+[
+  {
+    "description":"这是httpclient第一个测试,如何通过请求返回cookie信息呢",
+    "request":{
+      "uri":"/getCookies",
+      "method":"get"
+    },
+    "response":{
+      "cookies":{
+        "login":"true"
+      },
+      "text":"Get cookies success",
+      "status":"2000"
+    }
+  },
+
+  {
+    "description":"这是个带cookie的get请求",
+    "request":{
+      "uri":"/get/with/cookies",
+      "method":"get",
+      "cookies":{
+        "login":"true"
+      }
+    },
+    "response":{
+      "text":"这是一个需要带cookies访问的Api！"
+    }
+  },
+  {
+    "description":"这是个带cookies的post请求",
+    "request":{
+      "uri":"/post/with/cookies",
+      "method":"post",
+      "cookies":{
+        "login":"true"
+      },
+      "json":{
+        "name":"Yuefei",
+        "age":"18"
+      }
+    },
+    "response":{
+      "status":"200",
+      "json":{
+        "code":"1",
+        "Yuefei":"Success"
+
+      }
+    }
+  }
+]

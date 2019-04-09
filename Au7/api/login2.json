@@ -1,0 +1,14 @@
+[
+  {
+    "description":"登录返回cookie的信息",
+     "request":{
+       "uri":"/login/ok",
+       "method":"get"
+
+     },
+    "response":{
+     "file":"/login/logintestfile.xls"
+    }
+
+  }
+]

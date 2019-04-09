@@ -1,0 +1,79 @@
+[
+  {
+    "response": {
+      "headers": {
+        "Access-Control-Allow-Origin":"*",
+        "Access-Control-Allow-Methods":"*",
+        "Access-Control-Max-Age":"3600",
+        "Access-Control-Allow-Headers":"*",
+        "Access-Control-Allow-Credentials":"true",
+        "Content-Type":"text/html;charset=utf-8"
+      }
+
+    },
+    "file_root":"default/verifycheck",
+    "include":"verifyCheck.json"
+  },
+  {
+    "response": {
+      "headers": {
+        "Access-Control-Allow-Origin":"*",
+        "Access-Control-Allow-Methods":"*",
+        "Access-Control-Max-Age":"3600",
+        "Access-Control-Allow-Headers":"*",
+        "Access-Control-Allow-Credentials":"true",
+        "Content-Type":"text/html;charset=utf-8"
+      }
+
+    },
+    "file_root":"api",
+    "include":"login1.json"
+  },
+  {
+    "response": {
+      "headers": {
+        "Access-Control-Allow-Origin":"*",
+        "Access-Control-Allow-Methods":"*",
+        "Access-Control-Max-Age":"3600",
+        "Access-Control-Allow-Headers":"*",
+        "Access-Control-Allow-Credentials":"true",
+        "Content-Type":"text/html;charset=utf-8"
+      }
+
+    },
+    "request":{"queries":{ "userName":"lisi", "password":"321321"}},
+    "file_root":"api",
+    "include":"login2.json"
+  },
+  {
+    "response": {
+      "headers": {
+        "Access-Control-Allow-Origin":"*",
+        "Access-Control-Allow-Methods":"*",
+        "Access-Control-MaxAge":"3600",
+        "Access-Control-Allow-Headers":"*",
+        "Access-Control-Allow-Credentials":"true",
+        "Content-Type":"text/html;charset=utf-8"
+      }
+
+    },
+    "file_root":"api/user",
+    "include":"user.json"
+  },
+
+  {
+    "response":{
+      "headers": {
+        "Access-Control-Allow-Origin":"*",
+        "Access-Control-Allow-Methods":"*",
+        "Access-Control-MaxAge":"3600",
+        "Access-Control-Allow-Headers":"*",
+        "Access-Control-Allow-Credentials":"true",
+        "Content-Type":"text/html;charset=utf-8"
+      }
+    },
+    "file_root":"default/error",
+    "include":"default_error.json"
+  }
+
+]

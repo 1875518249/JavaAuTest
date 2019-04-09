@@ -1,0 +1,29 @@
+[
+  {
+    "description":"登录接口",
+    "request":{
+      "uri":"/login",
+      "method":"get",
+      "queries":{"userName":"admin","password":"123123"}
+    },
+    "response":{
+      "file":"/login/login_ok.json",
+      "latency":{"duration":1,"unit":"second"}
+
+    }
+  },
+  {
+    "description":"登录接口",
+    "request":{
+      "uri":"/login",
+      "method":"get",
+      "queries":{"userName":"zhangsan","password":"123123"}
+
+    },
+    "response":{
+      "file":"/login/login_u_ok.json",
+      "latency":{"duration":1,"unit":"second"}
+
+    }
+  }
+]

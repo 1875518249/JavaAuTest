@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name = "suitename">
+    <test name="testmethodgroups">
+
+        <classes>
+            <class name ="com.autest.testng.groups.GroupsOnMethod">
+                <groups>
+                    <run>
+                        <include name="client"/>
+                    </run>
+                </groups>
+                <methodes>
+                    <method name="test1"/>
+                    <method name="test2"/>
+                    <method name="test3"/>
+                    <method name="test4"/>
+
+                </methodes>
+            </class>
+        </classes>
+    </test>
+</suite>

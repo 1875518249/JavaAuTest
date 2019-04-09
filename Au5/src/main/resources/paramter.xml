@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="parm">
+    <test name="param">
+        <classes>
+            <paramters>
+                <paramter name="name" value="zhangsan"/>
+                <paramter name="age" value="20"/> <!--paramter统一属性前面是name后面是value-->
+                <!--加入参数，参数格式是前面name后面是value空格隔开;一个参数一个paramter-->
+            </paramters>
+            <class name="com.autest.testng.paramter.ParamterTest"/>
+        </classes>
+    </test>
+</suite>
+
+        <!--I was facing same issue which got resolved by below steps - -->
+        <!--1. Set your xml file in Project->Properties->TestNG->Template XML File-->
+        <!--2. Ri I ght click on your Java file and choosing Run As...->TestNG Test (Thus template will be used)-->
+
+        <!--public void parametertest(@Optional("Name"),String Name) {-->
+        <!--System.out.println("Parameterized value is " +Name);-->
+        <!--}-->
