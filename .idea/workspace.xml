@@ -1,77 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aad575e7-541f-43b2-8f2f-a11c95903f9e" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Au10/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Au10/src/main/java/com/autest/Application.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Au10/src/main/java/com/autest/controller/Demo1.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Au10/src/main/java/com/autest/model/User.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Au10/src/main/resources/application.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Au10/src/main/resources/logback.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Au10/src/main/resources/mapper/mysql.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Au10/src/main/resources/mybatis.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Au5/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Au5/src/main/java/com/autest/testng/BasicAnnotation.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Au5/src/main/java/com/autest/testng/DependTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Au5/src/main/java/com/autest/testng/EspectException.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Au5/src/main/java/com/autest/testng/IgnoreTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Au5/src/main/java/com/autest/testng/MultiThead/MultiTheadOnAnnotation.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Au5/src/main/java/com/autest/testng/MultiThead/MultiThreadOnXml.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Au5/src/main/java/com/autest/testng/TimeOutTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Au5/src/main/java/com/autest/testng/groups/GroupsOnClass1.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Au5/src/main/java/com/autest/testng/groups/GroupsOnClass2.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Au5/src/main/java/com/autest/testng/groups/GroupsOnClass3.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Au5/src/main/java/com/autest/testng/groups/GroupsOnMethod.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Au5/src/main/java/com/autest/testng/paramter/DataProviderTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Au5/src/main/java/com/autest/testng/paramter/ParamterTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Au5/src/main/java/com/autest/testng/suite/LoginTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Au5/src/main/java/com/autest/testng/suite/PayTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Au5/src/main/java/com/autest/testng/suite/SuiteConfig.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Au5/src/main/resources/MultiThread.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Au5/src/main/resources/basicannotation.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Au5/src/main/resources/groupsonclass.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Au5/src/main/resources/paramter.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Au5/src/main/resources/suite.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Au6/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Au6/src/main/java/com/tester/demo/ExtentTestNGIReporterListener.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Au6/src/main/java/com/tester/demo/ReportTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Au6/src/main/resources/report.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Au7/api/login/login_ok.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Au7/api/login/login_u_ok.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Au7/api/login/logintestfile.xls" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Au7/api/login1.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Au7/api/login2.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Au7/api/user/user.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Au7/default/error/default_error.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Au7/default/verifycheck/4040.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Au7/default/verifycheck/verifyCheck.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Au7/default/verifydemo/verifydemo.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Au7/moco-runner-0.11.0-standalone.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Au7/sartupWithHeader.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Au7/settings.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Au7/startup1.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Au7/startupGet.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Au7/startupPost.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Au7/startupWithHttpClient.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Au7/startupWithRedirect.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Au7/startupwithCookies.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Au7/基本操作说明" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Au8/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Au8/src/main/java/com/autest/code/MyHttpClient.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Au8/src/main/java/com/autest/code/cookies/MyCookiesForGet.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Au8/src/main/java/com/autest/code/cookies/MyCookiesForPost.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Au8/src/main/resources/application.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Au9/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Au9/src/main/java/Application.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Au9/src/main/java/com/autest/bean/User.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Au9/src/main/java/com/autest/config/SwaggerConfig.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Au9/src/main/java/com/autest/server/MyGetMethod.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Au9/src/main/java/com/autest/server/MyPostMethod.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Au9/src/main/java/hello/Sample.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Au9/src/main/resources/application.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/test.txt" afterPath="" />
-    </list>
+    <list default="true" id="aad575e7-541f-43b2-8f2f-a11c95903f9e" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/Chapter/target/" />
     <ignored path="$PROJECT_DIR$/Au5/target/" />
@@ -116,21 +46,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="report.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Au6/src/main/resources/report.xml">
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Au10/src/main/java/com/autest/model/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" column="8" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+            <state relative-caret-position="95">
+              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Au10/src/main/java/com/autest/model/User.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="266">
+              <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -141,16 +71,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="133">
               <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Au8/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -195,11 +115,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Au10/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="55" selection-end-column="19" />
+            <state relative-caret-position="430">
+              <caret line="57" column="8" lean-forward="false" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -329,296 +259,7 @@
             <path>
               <item name="JavaAuTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaAuTest" type="462c0819:PsiDirectoryNode" />
-              <item name="Au5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaAuTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaAuTest" type="462c0819:PsiDirectoryNode" />
-              <item name="Au5" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaAuTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaAuTest" type="462c0819:PsiDirectoryNode" />
-              <item name="Au5" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaAuTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaAuTest" type="462c0819:PsiDirectoryNode" />
-              <item name="Au5" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaAuTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaAuTest" type="462c0819:PsiDirectoryNode" />
-              <item name="Au5" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaAuTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaAuTest" type="462c0819:PsiDirectoryNode" />
-              <item name="Au5" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="autest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaAuTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaAuTest" type="462c0819:PsiDirectoryNode" />
-              <item name="Au5" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="autest" type="462c0819:PsiDirectoryNode" />
-              <item name="testng" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaAuTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaAuTest" type="462c0819:PsiDirectoryNode" />
-              <item name="Au5" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="autest" type="462c0819:PsiDirectoryNode" />
-              <item name="testng" type="462c0819:PsiDirectoryNode" />
-              <item name="groups" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaAuTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaAuTest" type="462c0819:PsiDirectoryNode" />
-              <item name="Au5" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="autest" type="462c0819:PsiDirectoryNode" />
-              <item name="testng" type="462c0819:PsiDirectoryNode" />
-              <item name="MultiThead" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaAuTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaAuTest" type="462c0819:PsiDirectoryNode" />
-              <item name="Au5" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="autest" type="462c0819:PsiDirectoryNode" />
-              <item name="testng" type="462c0819:PsiDirectoryNode" />
-              <item name="paramter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaAuTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaAuTest" type="462c0819:PsiDirectoryNode" />
-              <item name="Au5" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaAuTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaAuTest" type="462c0819:PsiDirectoryNode" />
-              <item name="Au6" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaAuTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaAuTest" type="462c0819:PsiDirectoryNode" />
-              <item name="Au6" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaAuTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaAuTest" type="462c0819:PsiDirectoryNode" />
-              <item name="Au6" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaAuTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaAuTest" type="462c0819:PsiDirectoryNode" />
-              <item name="Au6" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaAuTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaAuTest" type="462c0819:PsiDirectoryNode" />
-              <item name="Au6" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaAuTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaAuTest" type="462c0819:PsiDirectoryNode" />
-              <item name="Au6" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaAuTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaAuTest" type="462c0819:PsiDirectoryNode" />
-              <item name="Au6" type="462c0819:PsiDirectoryNode" />
-              <item name="test-output" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaAuTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaAuTest" type="462c0819:PsiDirectoryNode" />
-              <item name="Au9" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaAuTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaAuTest" type="462c0819:PsiDirectoryNode" />
-              <item name="Au9" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaAuTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaAuTest" type="462c0819:PsiDirectoryNode" />
-              <item name="Au9" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaAuTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaAuTest" type="462c0819:PsiDirectoryNode" />
-              <item name="Au9" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaAuTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaAuTest" type="462c0819:PsiDirectoryNode" />
-              <item name="Au9" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="autest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaAuTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaAuTest" type="462c0819:PsiDirectoryNode" />
-              <item name="Au9" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="autest" type="462c0819:PsiDirectoryNode" />
-              <item name="bean" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaAuTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaAuTest" type="462c0819:PsiDirectoryNode" />
-              <item name="Au9" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="autest" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaAuTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaAuTest" type="462c0819:PsiDirectoryNode" />
-              <item name="Au9" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="autest" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaAuTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaAuTest" type="462c0819:PsiDirectoryNode" />
-              <item name="Au9" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaAuTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaAuTest" type="462c0819:PsiDirectoryNode" />
               <item name="Au10" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaAuTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaAuTest" type="462c0819:PsiDirectoryNode" />
-              <item name="Au10" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaAuTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaAuTest" type="462c0819:PsiDirectoryNode" />
-              <item name="Au10" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaAuTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaAuTest" type="462c0819:PsiDirectoryNode" />
-              <item name="Au10" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaAuTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaAuTest" type="462c0819:PsiDirectoryNode" />
-              <item name="Au10" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="autest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaAuTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaAuTest" type="462c0819:PsiDirectoryNode" />
-              <item name="Au10" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="autest" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaAuTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaAuTest" type="462c0819:PsiDirectoryNode" />
-              <item name="Au10" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="autest" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaAuTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaAuTest" type="462c0819:PsiDirectoryNode" />
-              <item name="Au10" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaAuTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaAuTest" type="462c0819:PsiDirectoryNode" />
-              <item name="Au10" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -898,7 +539,7 @@
       <workItem from="1554273809460" duration="481000" />
       <workItem from="1554359071764" duration="2471000" />
       <workItem from="1554729323216" duration="7347000" />
-      <workItem from="1554804213077" duration="3367000" />
+      <workItem from="1554804213077" duration="4835000" />
     </task>
     <servers />
   </component>
@@ -935,7 +576,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="158559000" />
+    <option name="totallyTimeSpent" value="160027000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -947,8 +588,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34539473" sideWeight="0.46369138" order="7" side_tool="true" content_ui="tabs" />
@@ -966,8 +606,8 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41118422" sideWeight="0.53630865" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41118422" sideWeight="0.53630865" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23026316" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3161876" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -986,6 +626,32 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -1015,13 +681,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Au5/src/main/resources/suite.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Au6/src/main/java/com/tester/demo/ReportTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -1067,13 +726,6 @@
     <entry file="file://$PROJECT_DIR$/Au9/src/main/java/com/autest/server/My.java" />
     <entry file="file://$PROJECT_DIR$/Au9/src/main/java/com/autest/com/autest/user/user.java" />
     <entry file="file://$PROJECT_DIR$/Au9/src/main/java/com/autest/user/User.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Au7/api/login/login.json" />
     <entry file="file://$PROJECT_DIR$/Au7/api/user/user.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -1337,14 +989,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Au10/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="55" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Au10/src/main/java/com/autest/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -1367,6 +1011,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Au10/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="57" column="8" lean-forward="false" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="8" />
           <folding />
         </state>
       </provider>
